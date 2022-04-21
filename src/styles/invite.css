@@ -1,0 +1,139 @@
+.invite {
+    display: flex;
+    padding: 0.5rem 2rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    word-break: normal;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.invite-right {
+    width: 25%;
+}
+
+.invite-left {
+    width: 68%;
+    text-align: center;
+}
+
+.invite-left .avatar {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.invite-left .avatar img {
+    width: 270px;
+    height: 260px;
+}
+
+.invite-left h4 {
+    text-align: center;
+    padding: 0px 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+.invite-left p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 24px;
+}
+
+.share-code {
+    margin-top: 44px;
+    padding: 10px 100px;
+}
+
+.invite-left .invite-history {
+    padding: 10px 81px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.invite-left .invite-history:active {
+    transform: scale(0.98);
+}
+
+@media screen and (max-width: 1000px) {
+    .invite .invite-right {
+        width: 28%;
+    }
+    .my-games {
+        padding: 0.5rem 1rem;
+    }
+    .invite .invite-left {
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .invite {
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .invite .invite-right {
+        width: 100%;
+        padding-top: 2rem;
+        display: none;
+    }
+    .invite .invite-left {
+        width: 100%;
+    }
+    .invite-left h4 {
+        padding: 0;
+        font-size: 1.2rem;
+    }
+    .invite-left p {
+        font-size: 0.8rem;
+    }
+    .invite-left .invite-history {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* @media screen and (max-width: 1200px) {
+    .invite .invite-left {
+        width: 43%;
+        border: 1px solid red;
+    }
+    .invite .invite-right {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 967px) {
+    .invite .invite-left {
+        width: 43%;
+    }
+    .invite .invite-right {
+        width: 30%;
+    }
+}
+
+@media (max-width: 414px) {
+    .invite .invite-right {
+        display: none;
+    }
+    .invite {
+        flex-direction: column;
+    }
+    .invite .invite-left {
+        width: 100%;
+    }
+    .invite-left h4 {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+    .invite-left p {
+        font-size: 0.73rem;
+    }
+    .invite-left .invite-history {
+        margin-bottom: 40px;
+    }
+} */

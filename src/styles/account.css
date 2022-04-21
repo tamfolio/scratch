@@ -1,0 +1,184 @@
+.account {
+  display: flex;
+  padding: 0.5rem 2rem;
+  margin-top: 24px;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.account .account-nav .item {
+  padding: 0.7rem 1.2rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.account .account-nav .item.active {
+  background-color: var(--dark);
+  color: var(--orange);
+}
+
+.account .account-nav .title {
+  display: inline-block;
+  margin-left: 0.7rem;
+}
+
+.account .account-center,
+.account .account-right {
+  margin-top: 3rem;
+}
+
+.account.index .account-left {
+  width: 23%;
+}
+
+.account.index .account-center {
+  width: 40%;
+}
+
+.account .account-center button.submit {
+  width: 10em;
+}
+
+.account.index .account-right {
+  width: 25%;
+}
+
+.account.messages .account-left {
+  width: 70%;
+}
+
+.account.messages .account-left h5 {
+  color: #fff;
+}
+
+.account.messages .account-right {
+  width: 25%;
+}
+
+.account.messages .message-box {
+}
+
+.account.messages .message-box .heading {
+  font-size: 12px;
+}
+
+.account.messages .message-box .item {
+  padding: 1rem;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: var(--dark);
+}
+
+.account.messages .message-box .item .date {
+  font-size: 13px;
+}
+
+.account.messages .message-box .item .head {
+  font-size: 16px;
+}
+
+.account.messages .message-box .item.new .head {
+  color: white;
+}
+
+.account.messages .message-box .item .body {
+  font-size: 13px;
+}
+
+.account.messages .message-box .item.empty {
+}
+
+.account.messages .message-box .item.active {
+}
+
+@media screen and (max-width: 1200px) {
+  .account.index .account-left {
+    width: 30%;
+  }
+  .account.index .account-center {
+    width: 43%;
+  }
+  .account.index .account-right {
+    width: 23%;
+  }
+  .account.messages .account-left {
+    width: 65%;
+  }
+  .account.messages .account-right {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .account.index .account-left {
+    width: 35%;
+  }
+  .account.index .account-center {
+    width: 60%;
+  }
+  .account.index .account-right {
+    width: 50%;
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 900px) {
+  .account {
+    padding-top: 2rem;
+  }
+  .account.messages .account-left {
+    width: 100%;
+  }
+  .account.messages .account-right {
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .account {
+    flex-direction: column;
+  }
+  .account.index .account-left {
+    width: 40%;
+  }
+  .account.index .account-center {
+    width: 100%;
+  }
+  .account.index .account-right {
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+
+  .account {
+    padding: 2rem 1.5rem;
+  }
+  .account.messages {
+    padding: 2rem 1rem;
+  }
+  .account.index .account-left {
+    width: 100%;
+  }
+}
+
+/* @media (max-width: 414px) {
+  .account {
+    flex-direction: column;
+  }
+  .account.index .account-left {
+    width: 90%;
+  }
+  .account.index .account-center {
+    width: 90%;
+  }
+  .account.index .account-right {
+    display: none;
+  }
+  .account.messages .account-left {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .account.messages .account-right {
+    display: none;
+  }
+} */

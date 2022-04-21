@@ -1,0 +1,183 @@
+.home {
+    padding: 0 30px;
+}
+
+.home .slide-image {
+    padding: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.home .popover {
+    width: 100px;
+    color: red;
+}
+
+.home .search,
+.home .game-nav {
+    margin-top: 2.5rem;
+}
+
+.home .game-nav .home-slider {
+    background-color: var(--dark);
+    border-radius: 2rem;
+    padding: 0.1rem;
+    display: inline-flex;
+    max-width: 100%;
+}
+
+.home .game-nav .link-items {
+    font-weight: 600;
+    margin: 0.3rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    padding: 0.2rem 0.8rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--dark-middle);
+    justify-content: center;
+    color: #fff;
+}
+
+.home .game-nav .link-items h6 {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.home .game-nav .link-items.active {
+    background-color: var(--orange);
+}
+
+.home .nav-list {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.home .nav-list i {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.3);
+    padding: 0.3rem;
+}
+
+.home .nav-list i.active {
+    color: white;
+}
+
+.home .nav-list i:hover {
+    opacity: 0.7;
+}
+
+.home .cards .slider {
+    border-radius: 0.5rem;
+}
+
+.home .cards .card-items {
+    display: block;
+    min-width: 180px;
+    max-width: 180px;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: var(--dark);
+    border-radius: 0.5rem;
+    margin: 0 0.3rem;
+}
+
+.home .cards .card-items img:hover {
+    opacity: 0.6;
+}
+
+.home .cards .card-items img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.home .cards .card-items button {
+    padding: 0.1rem 0.3rem;
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+    background-color: var(--orange);
+}
+
+.home .winners-table {
+    color: white;
+}
+
+.home .cards .testimony-items {
+    min-width: 300px;
+    border-radius: 7px;
+    max-width: 340px;
+    word-wrap: normal;
+    word-break: normal;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    background-color: var(--dark);
+}
+
+.home .cards .testimony-items p {}
+
+.home .cards .testimony-items i {
+    color: #fcea2b;
+}
+
+.home .cards .testimony-items .user {}
+
+.home .cards .testimony-items .flag {}
+
+.home .cards .testimony-items .name {}
+
+.activepages .sport h2 {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1000px) {
+    .home {
+        padding: 0 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .home {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 540px) {
+    .home {
+        padding: 0;
+    }
+    .home .bottom {
+        padding: 0 2px;
+    }
+    .home .search {
+        margin-top: 1rem;
+        display: none;
+    }
+    /* .icon-search-bar {
+        margin-top: -40px;
+    } */
+    .home .game-nav {
+        margin-top: 13px;
+    }
+    .home .cards .card-items {
+        min-width: 113px;
+        margin: 0 0.15rem;
+        padding: 0.35rem;
+    }
+    .home .cards .card-items button {
+        font-size: 0.5rem;
+    }
+    .home .cards .card-items .price {
+        font-size: 0.6rem;
+    }
+    .home .slide-image {
+        padding: 0 0.3rem;
+    }
+    .home .game-nav .link-items h6 {
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+    .home .game-nav .link-items i {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,55 @@
+.how-to-play {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.how-tos {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.how-tos .item {
+  background-color: var(--dark);
+  padding: 1.2rem;
+  word-break: normal !important;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  width: 30%;
+}
+
+.how-tos i {
+  font-size: 3rem;
+}
+
+.how-to-play-footer {
+  background-color: var(--dark);
+  padding: 2rem;
+  word-break: normal;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .how-tos .item {
+    width: 46%;
+    height: 100%;
+  }
+}
+@media (max-width: 520px) {
+  .how-tos .item {
+    width: 100%;
+  }
+  .how-to-play-footer h3 {
+    font-size: 34px;
+  }
+  .how-to-play-footer {
+    margin-bottom: 40px;
+  }
+  .how-to-play {
+    padding: 0.5rem 1rem;
+  }
+}

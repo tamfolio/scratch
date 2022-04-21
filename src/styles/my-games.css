@@ -1,0 +1,93 @@
+.my-games {
+    display: flex;
+    padding: 0.5rem 2rem;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.my-games-right {
+    width: 25%;
+}
+
+.my-games-left {
+    width: 70%;
+}
+
+.my-games .stats .item {
+    background-color: var(--dark);
+    width: 30%;
+    padding: 1.8rem 0 1rem 0;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.my-games .stats .item:not(:last-of-type) {
+    margin-right: 4.5%;
+}
+
+@media screen and (max-width: 1000px) {
+    .my-games-right {
+        width: 28%;
+    }
+    .my-games {
+        padding: 0.5rem 1rem;
+    }
+    .my-games-left {
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .my-games {
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .my-games-right {
+        width: 100%;
+        display: none;
+    }
+    .my-games-left {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .my-games .stats {}
+    .my-games .stats .item:not(:last-of-type) {
+        margin-right: 0;
+    }
+    .my-games .stats .item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
+
+
+/* @media (max-width: 414px) {
+  .my-games {
+    flex-direction: column;
+  }
+  .my-games .my-games-left {
+    width: 100%;
+  }
+  .my-games .my-games-left .stats {
+    flex-direction: column;
+  }
+  .my-games .stats .item:not(:last-of-type) {
+    margin-right: 0;
+  }
+  .my-games .stats .item {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .my-games .my-games-right {
+    display: none;
+  }
+  .noMobile {
+    display: none;
+  }
+} */

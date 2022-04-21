@@ -1,0 +1,7 @@
+.chat {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
