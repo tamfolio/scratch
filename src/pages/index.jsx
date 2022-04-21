@@ -9,7 +9,6 @@ import Slider from "../components/slider";
 import { useRef, useState } from "react";
 import Buy from "../components/buy";
 import Cart from "../components/dashboard/cart";
-import MobileNav from "../components/MobileNav";
 import Sports from "./sports";
 import Family from "./family"
 import Lobby from "../components/dashboard/lobby";
@@ -18,7 +17,6 @@ import Millionaire from "./millionaire";
 import Scholarship from "./Adventuree";
 import NewRelease from "./NewRelease";
 import Popular from "./Popular";
-// import MobileNav from "../components/MobileNav";
 import def from "../services/enum";
 import NumberFormat from "react-number-format";
 import { addToCart } from "../store/cart";

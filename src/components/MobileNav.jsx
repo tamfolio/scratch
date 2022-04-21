@@ -12,9 +12,7 @@ import {
 
 function MobileNav({
   showLeftSideBar,
-  setShowDashboardMenu,
   toggleCart,
-  toggleMoney,
 }) {
   return (
     <div className="mobile-nav">

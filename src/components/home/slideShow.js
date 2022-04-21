@@ -52,8 +52,8 @@ function SlideShow({ images, imageStyle, containerStyle }) {
         infiniteLoop={true}
         autoPlay={true} showArrows={arrow} showThumbs={false}
         interval={4500} autoFocus={true}
-        centerMode
-        centerSlidePercentage={width}
+        centermode
+        centerslidepercentage={width}
         renderIndicator={
           (onClickHandler, isSelected, index, label) => {
             if (isSelected) {
@@ -70,8 +70,8 @@ function SlideShow({ images, imageStyle, containerStyle }) {
                 style={indicatorStyles}
                 onClick={onClickHandler}
                 onKeyDown={onClickHandler}
-                centerMode={true}
-                centerSlidePercentage={70}
+                centermode={true}
+                centerslidepercentage={70}
                 value={index}
                 key={index}
                 role="button"
